@@ -1,0 +1,20 @@
+def custom_song(length, oldertown, town, country, timeofday, noun, noun2, action):
+    print(f"{town} was {oldertown}")
+    print(f"Now it's {town}, not {oldertown}")
+    print(f"Been a {length} time gone, {oldertown}")
+    print(f"Now it's {country} delight on a moonlit {timeofday}")
+    print(f"Every {noun} in {oldertown}")
+    print(f"{noun2} in {town}, not {oldertown}")
+    print(f"So if you've a date in {oldertown}")
+    print(f"{noun} be {action} in {town}")
+
+input_town = input("Enter the name of a city ")
+input_oldertown = input("Enter the name of another city ")
+input_country = input("Enter a country: ")
+input_timeofday = input("Enter a time of day ")
+input_noun = input("Enter a noun: ")
+input_noun2 = input("Enter another noun: ")
+input_action = input("Enter an action: ")
+input_length = input("Enter a length(ie:long/far/short): ")
+
+custom_song(town=input_town, oldertown=input_oldertown, country=input_country, timeofday=input_timeofday, noun=input_noun, noun2=input_noun2, length=input_length, action=input_action)
