@@ -11,7 +11,7 @@ def main():
     while guess != random_number:
         
         guess = int(input("Enter your guess: "))
-
+# abs is for finding absolute value
         difference = abs(random_number - guess
 )
         if guess == random_number:
