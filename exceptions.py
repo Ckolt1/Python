@@ -7,4 +7,6 @@ def square_number():
         print(f"The square of {number} is {squared_number}.")
     except ValueError:
         print("Error, Use valid NUMBERS")
+
+
 square_number()
