@@ -5,7 +5,7 @@ class NotNumericError(Exception):
 
         super().__init__(self.message)
 
-def get_numeric_input():
+def main():
 
     try:
         user_input = input("Please enter a number: ")
@@ -24,9 +24,5 @@ def get_numeric_input():
     finally:
 
         print("End of Code.\n")
-
-# repeats until true
-while True:
-    
-    if get_numeric_input():
-        break
+        
+main()
